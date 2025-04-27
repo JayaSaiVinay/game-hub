@@ -13,13 +13,9 @@ const App = () => {
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside" bg="yellow">
-          NavBar
-        </GridItem>
+        <GridItem area="aside">NavBar</GridItem>
       </Show>
-      <GridItem area="main" bg="dodgerblue">
-        NavBar
-      </GridItem>
+      <GridItem area="main">NavBar</GridItem>
     </Grid>
   );
 };
